@@ -26,7 +26,7 @@ public class sist_menu_tarefas extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel1.setText("Menu de Tarefas");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\irlen\\Documents\\NetBeansProjects\\Proj_Final\\src\\estoque1.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\irlen\\Documents\\NetBeansProjects\\proj_final_pessoal\\src\\estoque1.png")); // NOI18N
         jLabel2.setText("jLabel2");
 
         bt_registo_produto.setText("Novo Registo Produto");

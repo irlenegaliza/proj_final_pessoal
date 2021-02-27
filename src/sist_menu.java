@@ -48,11 +48,11 @@ public class sist_menu extends javax.swing.JFrame {
         });
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabel1.setText("Menu Principal");
+        jLabel1.setText("Menu Inicial");
 
         jLabel2.setText("jLabel2");
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\irlen\\Desktop\\Cinel - Curso programacao\\Def_Proj_Tec_JMagalhaes\\estoque1.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\irlen\\Documents\\NetBeansProjects\\proj_final_pessoal\\src\\estoque1.png")); // NOI18N
         jLabel4.setText("jLabel4");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

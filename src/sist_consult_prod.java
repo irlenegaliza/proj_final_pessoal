@@ -40,7 +40,7 @@ public class sist_consult_prod extends javax.swing.JFrame {
         jLabel1.setText("Nome do Item:");
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel2.setText("Consulta de Stock");
+        jLabel2.setText("Consulta de Produto");
 
         txt_codigo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -48,7 +48,7 @@ public class sist_consult_prod extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\irlen\\Documents\\NetBeansProjects\\Proj_Final\\src\\estoque1.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\irlen\\Documents\\NetBeansProjects\\proj_final_pessoal\\src\\estoque1.png")); // NOI18N
         jLabel3.setText("jLabel3");
 
         bt_pesquisar.setText("Pesquisar");

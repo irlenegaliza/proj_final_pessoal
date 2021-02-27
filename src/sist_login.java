@@ -65,7 +65,7 @@ public class sist_login extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel1.setText("Login do Utilizador ");
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\irlen\\Desktop\\Cinel - Curso programacao\\Def_Proj_Tec_JMagalhaes\\estoque1.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\irlen\\Documents\\NetBeansProjects\\proj_final_pessoal\\src\\estoque1.png")); // NOI18N
         jLabel3.setText("jLabel3");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
