@@ -22,8 +22,10 @@ public class Sist_Produto {
         
         try {
             // instanciar classe que representa a instrução em sql
-            PreparedStatement statement = objCon.con.prepareStatement("select * from sis_produto where conteudo=? ");
-            statement.setString(1, conteudo); // busca de acordo com o conteudo do produto para verificar se não há repetição
+            PreparedStatement statement = objCon.con.prepareStatement("select * from sis_produto where descricao=? and fabricante=? and conteudo=? ");
+            statement.setString(1, produto); // busca de acordo com o conteudo do produto para verificar se não há repetição
+            statement.setString(2, fabricante);
+            statement.setString(3, conteudo);
             
             ResultSet resultSet = statement.executeQuery(); // classe que irá percorrer toda a tabela fazendo a pesquisa
             isProdutoRegistado = resultSet.next();
