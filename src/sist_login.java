@@ -64,8 +64,6 @@ public class sist_login extends javax.swing.JFrame {
         jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\irlen\\Documents\\NetBeansProjects\\proj_final_pessoal\\src\\estoque1.png")); // NOI18N
         jLabel3.setText("jLabel3");
 
-        txt_password.setText("jPasswordField1");
-
         show_password.setText("Mostrar");
         show_password.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

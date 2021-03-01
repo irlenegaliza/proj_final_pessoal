@@ -58,7 +58,11 @@ public class sist_registo extends javax.swing.JFrame {
         jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\irlen\\Documents\\NetBeansProjects\\proj_final_pessoal\\src\\estoque1.png")); // NOI18N
         jLabel4.setText("jLabel4");
 
-        txt_password.setText("jPasswordField1");
+        txt_password.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt_passwordActionPerformed(evt);
+            }
+        });
 
         show_password.setText("Mostrar");
         show_password.addActionListener(new java.awt.event.ActionListener() {
@@ -183,6 +187,10 @@ public class sist_registo extends javax.swing.JFrame {
         txt_reg_utilizador.setText("");
         txt_password.setText("");
     }//GEN-LAST:event_btn_limparActionPerformed
+
+    private void txt_passwordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_passwordActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt_passwordActionPerformed
 
     public static void main(String args[]) {
 
