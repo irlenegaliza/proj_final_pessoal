@@ -84,7 +84,8 @@ public class Sist_Utilizador {
             
             int i = ps.executeUpdate(); //regista qualquer ação, tipo alterações na tabela. O método executa a instrução sql recebida
             
-            if(i>0) {// E informará o número de linhas que foram alteradas na tabela com a atualização. Se não houver atualização, retorna 0, se houver, retorna o numero de linhas alteradas com a inserção de um novo dado
+            if(i>0) {// E informará o número de linhas que foram alteradas na tabela com a atualização. Se não houver atualização, retorna 0, se houver, 
+                //retorna o numero de linhas alteradas com a inserção de um novo dado
                 JOptionPane.showMessageDialog(null, "Registado com sucesso!");
             }    
         }
